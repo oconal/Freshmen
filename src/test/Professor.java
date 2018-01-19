@@ -13,7 +13,7 @@ public class Professor extends Human {
         int size = grp.getGroup().size();
         int isHere = 0;
         for (HashMap.Entry<Student, Boolean> pair : grp.getGroup().entrySet()) {
-            if (pair.getValue() == true) isHere++;
+            if (pair.getValue()) isHere++;
         }
         if (size == isHere) {
             System.out.println("По результатам переклички все студенты группы \"" + grp.getName() + "\" присутствуют.");
