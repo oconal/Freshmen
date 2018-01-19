@@ -28,7 +28,4 @@ public class Human {
         name = name.concat(LAST_NAME[(int) (Math.random() * LAST_NAME.length)]);
         return name;
     }
-
-    private void generateCharacters() {
-    }
 }
