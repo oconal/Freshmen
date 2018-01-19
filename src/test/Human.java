@@ -1,10 +1,11 @@
 package test;
 
 public class Human {
-    private final String NAME = generateName();
-    private int age;
     public static final String[] FIRST_NAME = {"Анна ", "Николай ", "Виктория ", "Григорий ", "Мария ", "Владимир ", "Александра ", "Иван ", "Любовь ", "Яна "};
     public static final String[] LAST_NAME = {"Мурз", "Крут", "Вой", "Кузнец", "Хомяк", "Плотник", "Лось", "Монетко", "Пильник", "Борщ"};
+    private final String NAME = generateName();
+    private int age;
+    
 
     public String getName() {
         return name;
